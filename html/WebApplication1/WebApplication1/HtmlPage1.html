@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="https://www.google.com">
+        <fieldset style="width:300px">
+            <legend>Input text field</legend>
+            <table border="1">
+                <tr>
+                    <td>
+                        <span>First Name</span> <input type="text" id="first name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Last Name</span><input type="text" id="last name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>country</span><input type="text" id="country" list="source" />
+                        <datalist id="source">
+                            <option value="asia"></option>
+                            <option value="australia"></option>
+                            <option value="america"></option>
+                            <option value="europe"></option>
+                            <option value="africa"></option>
+                        </datalist>
+
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width:300px">
+            <legend>Email and url validation</legend>
+            <table border="1">
+                <tr>
+                    <td>
+                        <span>Email</span> <input type="email" id="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Url</span><input type="url" id="url" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width:300px" ,text-color="green">
+            <legend>Mobile or phone no validation</legend>
+            <table border="1">
+                <tr>
+                    <td>
+                        <span>Mobile no</span> <input type="number" id="mobile no" max="20" min="0" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width:300px" ,text-color="green">
+            <legend>Password validation</legend>
+            <table border="1">
+                <tr>
+                    <td>
+                        <span>password</span> <input type="password" id="password" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width:300px" ,text-color="green">
+            <legend>check box and radio button validation</legend>
+            <table border="1">
+                <tr>
+                    <td>
+                        <span>Agree T&C*</span> <input type="checkbox" id="agree T&C" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>gender</span> <br />
+                        <label>male</label><input type="radio" value="male" name="male" id="male" />
+                        <label>female</label><input type="radio" value="female" name="female" id="female" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
